@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICRM Test">
+
+	<listeners>
+		<listener class-name="com.icrm.qa.ExtentReportListener.ExtentReportNG" />
+	</listeners>
+
+
+	<test name="ICRM Test Cases For Level 2">
+		<classes>
+			<class name="com.icrm.qa.testcases.Level2"></class>
+		</classes>
+	</test>
+</suite>

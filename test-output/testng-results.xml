@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ICRM Test" duration-ms="200496" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:10:48Z">
+    <groups>
+    </groups>
+    <test name="ICRM Test Cases For Create Cases" duration-ms="200496" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:10:48Z">
+      <class name="com.icrm.qa.testcases.Level1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="setUp" is-config="true" duration-ms="39779" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="60929" started-at="2019-10-17T11:08:09Z" data-provider="getData" finished-at="2019-10-17T11:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000021394]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Proposal Changes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLevel1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-17T11:09:10Z" finished-at="2019-10-17T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="33806" started-at="2019-10-17T11:09:10Z" data-provider="getData" finished-at="2019-10-17T11:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000021394]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Proposal Changes Special Quotation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLevel1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-10-17T11:09:43Z" finished-at="2019-10-17T11:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="31780" started-at="2019-10-17T11:09:43Z" data-provider="getData" finished-at="2019-10-17T11:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000021394]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Proposal Changes Revision]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLevel1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-17T11:10:15Z" finished-at="2019-10-17T11:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="32817" started-at="2019-10-17T11:10:15Z" data-provider="getData" finished-at="2019-10-17T11:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000021394]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Proposal Changes Revision Quotation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLevel1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-17T11:10:48Z" finished-at="2019-10-17T11:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.icrm.qa.testcases.Level1 -->
+    </test> <!-- ICRM Test Cases For Create Cases -->
+  </suite> <!-- ICRM Test -->
+</testng-results>

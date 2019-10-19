@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ICRM Test]">
+  <listeners>
+    <listener class-name="com.icrm.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="ICRM Test Cases For Create Cases(failed)">
+    <classes>
+      <class name="com.icrm.qa.testcases.Level1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="DoLevel1" invocation-numbers="7"/>
+        </methods>
+      </class> <!-- com.icrm.qa.testcases.Level1 -->
+    </classes>
+  </test> <!-- ICRM Test Cases For Create Cases(failed) -->
+</suite> <!-- Failed suite [ICRM Test] -->

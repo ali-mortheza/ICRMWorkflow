@@ -1,0 +1,2 @@
+[0712/115246.121:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[0924/115800.828:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
