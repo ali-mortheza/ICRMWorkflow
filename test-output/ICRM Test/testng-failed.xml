@@ -10,7 +10,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="DoLevel1" invocation-numbers="7"/>
+          <include name="DoLevel1" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.icrm.qa.testcases.Level1 -->
     </classes>

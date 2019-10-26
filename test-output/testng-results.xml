@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="ICRM Test" duration-ms="200496" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:10:48Z">
+  <suite name="ICRM Test" duration-ms="159462" started-at="2019-10-25T11:32:09Z" finished-at="2019-10-25T11:34:48Z">
     <groups>
     </groups>
-    <test name="ICRM Test Cases For Create Cases" duration-ms="200496" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:10:48Z">
+    <test name="ICRM Test Cases For Create Cases" duration-ms="159462" started-at="2019-10-25T11:32:09Z" finished-at="2019-10-25T11:34:48Z">
       <class name="com.icrm.qa.testcases.Level1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="setUp" is-config="true" duration-ms="39779" started-at="2019-10-17T11:07:28Z" finished-at="2019-10-17T11:08:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="setUp" is-config="true" duration-ms="21016" started-at="2019-10-25T11:32:09Z" finished-at="2019-10-25T11:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="60929" started-at="2019-10-17T11:08:09Z" data-provider="getData" finished-at="2019-10-17T11:09:10Z">
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="60389" started-at="2019-10-25T11:32:32Z" data-provider="getData" finished-at="2019-10-25T11:33:32Z">
           <params>
             <param index="0">
               <value>
@@ -32,11 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLevel1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-17T11:09:10Z" finished-at="2019-10-17T11:09:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-25T11:33:32Z" finished-at="2019-10-25T11:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="33806" started-at="2019-10-17T11:09:10Z" data-provider="getData" finished-at="2019-10-17T11:09:43Z">
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="41977" started-at="2019-10-25T11:33:32Z" data-provider="getData" finished-at="2019-10-25T11:34:14Z">
           <params>
             <param index="0">
               <value>
@@ -57,11 +57,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLevel1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-10-17T11:09:43Z" finished-at="2019-10-17T11:09:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-25T11:34:14Z" finished-at="2019-10-25T11:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="31780" started-at="2019-10-17T11:09:43Z" data-provider="getData" finished-at="2019-10-17T11:10:15Z">
+        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="34035" started-at="2019-10-25T11:34:14Z" data-provider="getData" finished-at="2019-10-25T11:34:48Z">
           <params>
             <param index="0">
               <value>
@@ -82,32 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLevel1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-17T11:10:15Z" finished-at="2019-10-17T11:10:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="DoLevel1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="DoLevel1" duration-ms="32817" started-at="2019-10-17T11:10:15Z" data-provider="getData" finished-at="2019-10-17T11:10:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2000021394]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Proposal Changes Revision Quotation]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Request]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DoLevel1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-17T11:10:48Z" finished-at="2019-10-17T11:10:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icrm.qa.testcases.Level1@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-25T11:34:48Z" finished-at="2019-10-25T11:34:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
